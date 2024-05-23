@@ -1,0 +1,5 @@
+LRR 
+
+AAA = (2AA, 2AA)
+2AA = (AAA, ZZZ)
+ZZZ = (ZZZ, ZZZ)
