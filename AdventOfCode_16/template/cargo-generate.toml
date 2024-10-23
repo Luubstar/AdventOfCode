@@ -1,0 +1,16 @@
+# cargo-generate.toml
+
+[template]
+# Descripción por defecto para el nuevo proyecto
+description = "Plantilla base para Advent of Code en Rust"
+
+[hooks]
+post = ["post-script.rhai"]
+
+[placeholders]
+year = { type = "string", prompt = "Year of the advent of code" }
+day = { type = "string", prompt = "Day of the advent of code" }
+
+[values]
+cookie = ""
+
