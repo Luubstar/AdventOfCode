@@ -6,6 +6,9 @@ fn main() {
 
     let t = Instant::now();
     let input = parse(&text);
+    println!("Datos parseados en {} ms", t.elapsed().as_millis());
+
+    let t = Instant::now();
     let r1 = part1(&input);
     println!("Resultado de la parte 1: {}\nObtenida en {} ms", r1, t.elapsed().as_millis());
 
@@ -14,11 +17,11 @@ fn main() {
     println!("Resultado de la parte 2: {}\nObtenida en {} ms", r2, t.elapsed().as_millis());
 }
 
-fn part2(_input : &str) -> String{
+fn part1(_input : &str) -> String{
     String::from("NOT IMPLEMENTED")
 }
 
-fn part1(_input : &str) -> String{
+fn part2(_input : &str) -> String{
     String::from("NOT IMPLEMENTED")
 }
 
